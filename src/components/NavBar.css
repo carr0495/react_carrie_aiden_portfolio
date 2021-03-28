@@ -1,0 +1,38 @@
+.navigationContainer {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.432);
+  margin: 0;
+}
+
+.navSeparator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration-style: none;
+  color: gray;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  text-decoration-style: none;
+  padding: 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav_link:hover {
+  color: gray;
+}

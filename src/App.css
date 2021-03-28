@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+* {
+  font-family: "Comfortaa", cursive;
+}
+
 .App {
   text-align: center;
+  margin: 0;
 }
 
 .App-logo {
