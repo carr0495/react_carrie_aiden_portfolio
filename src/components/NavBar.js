@@ -12,7 +12,7 @@ function NavBar(props) {
             <div>
               <p>Aiden Carrie</p>
             </div>
-            <div>
+            <div className="linksBar">
               <ul>
                 <li>
                   <Link to="/" className="nav_link">

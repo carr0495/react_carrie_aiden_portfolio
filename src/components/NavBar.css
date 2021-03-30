@@ -1,6 +1,7 @@
 .navigationContainer {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.432);
   margin: 0;
+  padding: 10px;
 }
 
 .navSeparator {
@@ -15,6 +16,8 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
   list-style: none;
   text-decoration-style: none;
   color: gray;
@@ -35,4 +38,11 @@ li {
 
 .nav_link:hover {
   color: gray;
+}
+
+.linksBar {
+  display: flex;
+  align-items: center;
+  /* background-color: green; */
+  align-content: center;
 }
