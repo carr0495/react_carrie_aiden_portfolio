@@ -1,7 +1,11 @@
 .navigationContainer {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.432);
-  margin: 0;
-  padding: 10px;
+  /* margin: 0; */
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
 }
 
 .navSeparator {
