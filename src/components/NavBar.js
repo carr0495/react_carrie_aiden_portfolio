@@ -11,7 +11,7 @@ function NavBar(props) {
         <nav className="navigationContainer">
           <div className="navSeparator">
             <div>
-              <p>Aiden Carrie</p>
+              <p style={{ marginLeft: "15px" }}>Aiden Carrie</p>
             </div>
             <div className="linksBar">
               <ul>
