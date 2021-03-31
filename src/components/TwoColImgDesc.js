@@ -7,7 +7,7 @@ function TwoColImgDesc(props) {
         <div className="descriptionContainer">
           <h3>{props.header}</h3>
           <p>{props.description}</p>
-          <a>{props.linkName}</a>
+          <a href={props.link}>{props.linkName}</a>
         </div>
         <div className="imageContainer">
           <img src={props.source} />
@@ -23,7 +23,7 @@ function TwoColImgDesc(props) {
         <div className="descriptionContainer">
           <h3>{props.header}</h3>
           <p>{props.description}</p>
-          <a>{props.linkName}</a>
+          <a href={props.link}>{props.linkName}</a>
         </div>
       </div>
     );

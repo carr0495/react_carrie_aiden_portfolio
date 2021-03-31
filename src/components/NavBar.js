@@ -2,6 +2,7 @@ import React from "react";
 import "./NavBar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { OtherPage, HomePage, AboutPage } from "../pages";
+import resume from "../assets/CV-Aiden-Carrie2021.pdf";
 
 function NavBar(props) {
   return (
@@ -25,9 +26,12 @@ function NavBar(props) {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/other" className="nav_link">
+                  {/* <Link to={"/other"} className="nav_link">
                     Resume
-                  </Link>
+                  </Link> */}
+                  <a href={resume} className="nav_link">
+                    Resume
+                  </a>
                 </li>
               </ul>
             </div>
@@ -40,9 +44,7 @@ function NavBar(props) {
           <Route path="/about">
             <AboutPage />
           </Route>
-          <Route path="/other">
-            <OtherPage />
-          </Route>
+          <Route path="/other">{resume}</Route>
           <Route path="/">
             <HomePage />
           </Route>
