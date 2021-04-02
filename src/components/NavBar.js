@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { OtherPage, HomePage, AboutPage } from "../pages";
+import { HomePage, AboutPage } from "../pages";
 import resume from "../assets/CV-Aiden-Carrie2021.pdf";
 
 function NavBar(props) {
@@ -38,14 +38,11 @@ function NavBar(props) {
           </div>
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-          renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about">
             <AboutPage />
           </Route>
-          <Route path="/other">{resume}</Route>
-          <Route path="/">
+          <Route exact path="/">
             <HomePage />
           </Route>
         </Switch>

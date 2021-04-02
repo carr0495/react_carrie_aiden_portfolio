@@ -13,7 +13,7 @@ function AboutPage(props) {
         linkName="LinkedIn"
         link="https://www.linkedin.com/in/aiden-carrie/"
       />
-      <IconContainer
+      {/* <IconContainer
         size={55}
         color={"orange"}
         github={"github"}
@@ -21,7 +21,7 @@ function AboutPage(props) {
         react={"react"}
         css={"css"}
         html={"html"}
-      />
+      /> */}
     </>
   );
 }

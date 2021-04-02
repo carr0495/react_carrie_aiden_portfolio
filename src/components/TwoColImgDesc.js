@@ -1,6 +1,8 @@
 import React from "react";
 import "./TCID.css";
 import { IconContainer } from "./";
+
+// const IconContainer = lazy(() => import("./IconContainer"));
 function TwoColImgDesc(props) {
   if (props.flipped) {
     return (
@@ -31,6 +33,7 @@ function TwoColImgDesc(props) {
         <div className="imageContainer">
           <img src={props.source} alt={props.imageAlt} />
         </div>
+
         <div className="descriptionContainer">
           <h3>{props.header}</h3>
           <p>{props.description}</p>
