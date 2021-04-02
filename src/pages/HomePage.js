@@ -58,7 +58,7 @@ function HomePage(props) {
           link="https://carr0495.github.io/mad9135-c1-html5-weather/"
           size={25}
           color={"#5f6d7b"}
-          github={"Github"}
+          // github={"Github"}
           javascript={"JavaScript"}
           // react={"React JS"}
           css={"CSS"}
