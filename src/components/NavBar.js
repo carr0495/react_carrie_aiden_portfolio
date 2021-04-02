@@ -1,8 +1,11 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import "./NavBar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { HomePage, AboutPage } from "../pages";
+// import { HomePage, AboutPage } from "../pages";
 import resume from "../assets/CV-Aiden-Carrie2021.pdf";
+
+const HomePage = lazy(() => import("../pages/HomePage"));
+const AboutPage = lazy(() => import("../pages/AboutPage"));
 
 function NavBar(props) {
   return (
@@ -39,12 +42,14 @@ function NavBar(props) {
         </nav>
 
         <Switch>
-          <Route path="/about">
-            <AboutPage />
-          </Route>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Route path="/about">
+              <AboutPage />
+            </Route>
+            <Route exact path="/">
+              <HomePage />
+            </Route>
+          </Suspense>
         </Switch>
       </div>
     </Router>
