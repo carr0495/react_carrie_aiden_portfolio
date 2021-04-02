@@ -29,9 +29,6 @@ function NavBar(props) {
                   </Link>
                 </li>
                 <li>
-                  {/* <Link to={"/other"} className="nav_link">
-                    Resume
-                  </Link> */}
                   <a href={resume} className="nav_link">
                     Resume
                   </a>

@@ -7,7 +7,7 @@ function AboutPage(props) {
     <>
       <TwoColImgDesc
         header="About Me"
-        description="Love learning new technology and frameworks. Always adding new little projects to my Github. Graduate of the Game Development program at Algonquin College and will graduate from the Mobile Application Design and Development program in April 2021. Looking forward to joining a team of like minded techies! Currently playing around with TypeScript."
+        description="Hello! I started my development journey back in 2010 when I tried creating a pokemon clone using Turing. This lead me to get my Advanced Diploma in Game Development from Algonquin College, where I specialized in Game Art. After graduating in 2019, I decided to polish up my programming skills by getting another Diploma, this time in Mobile Application Design and Development; where I will graduate in April 2021. During this program, I have had the opportunity to earn the position of Program Assistant, helping first year students learn JavaScript, CSS, HTML, Git and more. Another position I earned is with Algonquin in their Social Innovation Lab, where I spearheaded a project involving automating a booking system and assisted with UX on other projects."
         source={aboutPic}
         // flipped={true}
         linkName="LinkedIn"

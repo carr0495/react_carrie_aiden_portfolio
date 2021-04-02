@@ -13,37 +13,37 @@ function HomePage(props) {
       <Suspense fallback={<div>Loading...</div>}>
         <TwoColImgDesc
           header="Yelp Clone"
-          description="Application built in React Native, fetching data from the yelp API. Uses geolocation to find your current location. Worked in a team of 2 with a paired programming development style."
+          description="I built this application with a colleague using React Native. We used Geolocation to get the users location, and passed it into the Yelp API to get the correct data."
           source={yelp}
           flipped={true}
           linkName="github"
           link="https://github.com/carr0495/mad9135-f20-p2-react-native-yelp"
           size={25}
           color={"#d92728"}
-          github={"Github"}
-          javascript={"JavaScript"}
+          // github={"Github"}
+          // javascript={"JavaScript"}
           react={"React Native"}
           css={"CSS"}
           // html={"html"}
         />
         <TwoColImgDesc
           header="Rately PWA"
-          description="Progressive Web App created in React JS and deployed using Netlify. Worked in a team of 2 with a paired programming development style. "
+          description="I worked with a colleague to create this currency exchange Progressive Web Application. We used React JS as our framework and Materialize as our styling library. After the user navigates three times they are prompted to install the application. We deployed the application using Netlify."
           source={rately}
           // flipped={true}
           linkName="See it"
           link="https://5fc532a52f7a6b0f908b1860--jolly-hypatia-1925f8.netlify.app/"
           size={25}
           color={"purple"}
-          github={"Github + Netlify"}
+          // github={"Github + Netlify"}
           // javascript={"javascript"}
           react={"React JS"}
-          css={"CSS"}
+          // css={"CSS"}
           // html={"html"}
         />
         <TwoColImgDesc
           header="Robotic Process Automation"
-          description="Collaborated on creating a Robot Process for sanitizing classified documentation to an unclassified state. Our Client was the Communications Security Establishment. We used the UiPath framework to complete this bot."
+          description="I worked in a team of six to learn and create a Robotic Process Automation for the Communications Security Establishment. I had the role of UX lead / Developer which required I delegate and complete tasks with my team to meet our clients requirements. Our task was to take files of varying types, and use a blacklist to redact specific information to take it from a classified state to an unclassified state."
           source={probot}
           flipped={true}
           linkName="YouTube"
@@ -51,7 +51,7 @@ function HomePage(props) {
         />
         <TwoColImgDesc
           header="Weather Site"
-          description="Web application build with OpenWeather API, Geolocation and Google auto-complete. I added functionality where the background dynamically changes to different videos based on the weather of the searched location. Designed with a mobile first mentality in pure JavaScript"
+          description="I built this weather application in pure JavaScript. I used three tools to complete this project: Geolocation, Google auto-complete API, and Open Weather API. First the user is asked to allow location services, once accepted the weather in their current area is shown. I  implemented dynamic backgrounds that change based on the location the user searches."
           source={weather}
           // flipped={true}
           linkName="See it"
@@ -66,7 +66,7 @@ function HomePage(props) {
         />
         <TwoColImgDesc
           header="Eventi Design"
-          description="Design created for an Event application build in Adobe XD. Full Design process followed, defined the problem, collected data via online survey and interviews. Created personas and usage scenarios then had prototype testing with a round of students."
+          description="For this project I was required to design an application using the full user experience design process. I defined the problem, collected data via online survey and interviews, created personas and usage scenarios then had prototype testing with a round of students. I started with a paper prototype, moved on to a wirframe in Adobe XD, and finalized the design in XD."
           source={eventi}
           flipped={true}
           linkName="Prototype"
