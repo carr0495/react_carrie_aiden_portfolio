@@ -15,6 +15,13 @@ function HomePage(props) {
         flipped={true}
         linkName="github"
         link="https://github.com/carr0495/mad9135-f20-p2-react-native-yelp"
+        size={25}
+        color={"#d92728"}
+        github={"Github"}
+        javascript={"JavaScript"}
+        react={"React Native"}
+        css={"CSS"}
+        // html={"html"}
       />
       <TwoColImgDesc
         header="Rately PWA"
@@ -23,6 +30,13 @@ function HomePage(props) {
         // flipped={true}
         linkName="See it"
         link="https://5fc532a52f7a6b0f908b1860--jolly-hypatia-1925f8.netlify.app/"
+        size={25}
+        color={"purple"}
+        github={"Github + Netlify"}
+        // javascript={"javascript"}
+        react={"React JS"}
+        css={"CSS"}
+        // html={"html"}
       />
       <TwoColImgDesc
         header="Robotic Process Automation"
@@ -39,6 +53,13 @@ function HomePage(props) {
         // flipped={true}
         linkName="See it"
         link="https://carr0495.github.io/mad9135-c1-html5-weather/"
+        size={25}
+        color={"#5f6d7b"}
+        github={"Github"}
+        javascript={"JavaScript"}
+        // react={"React JS"}
+        css={"CSS"}
+        html={"HTML"}
       />
       <TwoColImgDesc
         header="Eventi Design"
@@ -47,6 +68,9 @@ function HomePage(props) {
         flipped={true}
         linkName="Prototype"
         link="https://xd.adobe.com/view/145108c8-d8ef-4d92-b216-4dca83b3539f-4102/"
+        size={25}
+        color={"#3f4448"}
+        adobeXD={"Adobe XD"}
       />
       <CardContainer GithubUsername={"carr0495"} />
     </>

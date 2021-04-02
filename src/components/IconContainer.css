@@ -1,0 +1,33 @@
+.mainIconContainer {
+  padding: 20px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.iconContainer {
+  margin: 5px;
+  font-size: 12pt;
+}
+
+@media only screen and (max-width: 660px) {
+  .mainIconContainer {
+    padding: 5px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .iconContainer {
+    margin: 15px;
+  }
+}

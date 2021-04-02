@@ -1,5 +1,5 @@
 import React from "react";
-import { TwoColImgDesc } from "../components";
+import { TwoColImgDesc, IconContainer } from "../components";
 import aboutPic from "../assets/main.jpg";
 
 function AboutPage(props) {
@@ -12,6 +12,15 @@ function AboutPage(props) {
         // flipped={true}
         linkName="LinkedIn"
         link="https://www.linkedin.com/in/aiden-carrie/"
+      />
+      <IconContainer
+        size={55}
+        color={"orange"}
+        github={"github"}
+        javascript={"javascript"}
+        react={"react"}
+        css={"css"}
+        html={"html"}
       />
     </>
   );
