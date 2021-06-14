@@ -1,6 +1,8 @@
 import React, { lazy, Suspense } from "react";
 import { CardContainer } from "../components";
 import yelp from "../assets/yelp.png";
+import storkit from "../assets/storkit.png";
+import moodle from "../assets/moodle.png";
 import weather from "../assets/weather.png";
 import eventi from "../assets/eventi.png";
 import probot from "../assets/probot.png";
@@ -11,6 +13,36 @@ function HomePage(props) {
   return (
     <>
       <Suspense fallback={<div>Loading...</div>}>
+        <TwoColImgDesc
+          header="Stotkit"
+          description="Storkit is a personal project created to learn GraphQL. I created the backend and frontend from scratch using Apollo-GraphQL and React JS. I really enjoyed building the api using GraphQL because of its ability to use playground and self document. This app offers the functionality to register, login, like posts, delete your own posts and comment on posts. For the styling I decided to use Neumorphism techniques."
+          source={storkit}
+          flipped={true}
+          linkName="github"
+          link="https://github.com/carr0495/storkit-fe"
+          size={25}
+          color={"#d92728"}
+          // github={"Github"}
+          // javascript={"JavaScript"}
+          react={"React JS"}
+          css={"CSS"}
+          // html={"html"}
+        />
+        <TwoColImgDesc
+          header="Moodle App"
+          description="This is my current project through my employment with Premergency. I have been tasked with taking the organizations existing plugins and make them PWA compatible thorugh the Moodle App. One challenge so far is learning PHP as the main development language and mustache templating for the front-end. The code for this project cannot be distributed due to an NDA. So far I have made two internal plugins mobile compatible and will soon work on building on top of moodles source code to build a branded custom version of the moodle app to be released on Android and IOS."
+          source={moodle}
+          // flipped={true}
+          // linkName="github"
+          // link="https://github.com/carr0495/mad9135-f20-p2-react-native-yelp"
+          size={25}
+          color={"#FC7D31"}
+          // github={"Github"}
+          // javascript={"JavaScript"}
+          // react={"React Native"}
+          // css={"CSS"}
+          // html={"html"}
+        />
         <TwoColImgDesc
           header="Yelp Clone"
           description="I built this application with a colleague using React Native. We used Geolocation to get the users location, and passed it into the Yelp API to get the correct data."
