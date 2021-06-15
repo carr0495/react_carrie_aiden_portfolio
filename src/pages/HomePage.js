@@ -30,7 +30,7 @@ function HomePage(props) {
         />
         <TwoColImgDesc
           header="Moodle App"
-          description="This is my current project through my employment with Premergency. I have been tasked with taking the organizations existing plugins and make them PWA compatible thorugh the Moodle App. One challenge so far is learning PHP as the main development language and mustache templating for the front-end. The code for this project cannot be distributed due to an NDA. So far I have made two internal plugins mobile compatible and will soon work on building on top of moodles source code to build a branded custom version of the moodle app to be released on Android and IOS."
+          description="This is my current project through my employment with Premergency. I have been tasked with taking the organizations existing plugins and make them PWA compatible through the Moodle App. One challenge so far is learning PHP as the main development language and mustache templating for the front-end. The code for this project cannot be distributed due to an NDA. So far I have made two internal plugins mobile compatible and will soon work on building on top of moodles source code to build a branded custom version of the moodle app to be released on Android and IOS."
           source={moodle}
           // flipped={true}
           // linkName="github"
@@ -63,8 +63,8 @@ function HomePage(props) {
           description="I worked with a colleague to create this currency exchange Progressive Web Application. We used React JS as our framework and Materialize as our styling library. After the user navigates three times they are prompted to install the application. We deployed the application using Netlify."
           source={rately}
           // flipped={true}
-          linkName="See it"
-          link="https://5fc532a52f7a6b0f908b1860--jolly-hypatia-1925f8.netlify.app/"
+          // linkName="See it"
+          // link="https://5fc532a52f7a6b0f908b1860--jolly-hypatia-1925f8.netlify.app/"
           size={25}
           color={"purple"}
           // github={"Github + Netlify"}
